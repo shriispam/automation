@@ -34,7 +34,7 @@ jobs:
           job_name: TestNG Repo ${{ matrix.Java }} - ${{ matrix.os }} Sample
           commit_sha: ${{ github.event.inputs.commit_sha }}
         with:
-          github-token: ${{ github.token }}
+          github-token: ${{ secrets.TOKEN }}
           script: |
             const result = await github.rest.checks.create({
               owner: context.repo.owner,
