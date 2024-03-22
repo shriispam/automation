@@ -1,7 +1,7 @@
 # This job is to test different maven profiles in sdk branch again Pull Request raised
 # This workflow targets Java with Maven execution
 
-name: TestNG SDK Test workflow for Maven on workflow_dispatch
+name: TestNG Repo Java 11 - Ubuntu Sample
 
 on:
   workflow_dispatch:
@@ -11,8 +11,8 @@ on:
         required: true
 
 jobs:
-  comment-run:
-    runs-on: ubuntu-latest  # Specify Ubuntu as the operating system
+  test-java-11-ubuntu:
+    runs-on: ubuntu-latest
     name: TestNG Repo Java 11 - Ubuntu Sample
     env:
       BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
@@ -22,48 +22,34 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: ${{ github.event.inputs.commit_sha }}
-      - uses: actions/github-script@98814c53be79b1d30f795b907e553d8679345975
-        id: status-check-in-progress
-        env:
-          job_name: TestNG Repo Java 11 - Ubuntu Sample
-          commit_sha: ${{ github.event.inputs.commit_sha }}
-        with:
-          github-token: ${{ github.token }}
-          script: |
-            const result = await github.rest.checks.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              name: process.env.job_name,
-              head_sha: process.env.commit_sha,
-              status: 'in_progress'
-            }).catch((err) => ({status: err.status, response: err.response}));
-            console.log(`The status-check response : ${result.status} Response : ${JSON.stringify(result.response)}`)
-            if (result.status !== 201) {
-              console.log('Failed to create check run')
-            }
+          token: ${{ secrets.TOKEN }} # Assuming you have created and set up the secret GH_TOKEN
+
       - name: Set up Java
-        uses: actions/setup-java@v3
+        uses: actions/setup-java@v2
         with:
-          distribution: 'temurin'
-          java-version: 11  # Specify Java version 11
+          java-version: '11'
+
       - name: Run mvn test
         run: |
           mvn compile
           mvn test
+
       - name: Run mvn profile sample-local-test
         run: |
           mvn compile
           mvn test -P sample-local-test
+
       - name: Run mvn profile sample-test
         run: |
           mvn compile
           mvn test -P sample-test
-      - if: always()
+
+      - name: Set job status to completed
+        if: always()
         uses: actions/github-script@98814c53be79b1d30f795b907e553d8679345975
         id: status-check-completed
         env:
           conclusion: ${{ job.status }}
-          job_name: TestNG Repo Java 11 - Ubuntu Sample
           commit_sha: ${{ github.event.inputs.commit_sha }}
         with:
           github-token: ${{ secrets.TOKEN }}
@@ -71,7 +57,7 @@ jobs:
             const result = await github.rest.checks.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              name: process.env.job_name,
+              name: 'TestNG Repo Java 11 - Ubuntu Sample',
               head_sha: process.env.commit_sha,
               status: 'completed',
               conclusion: process.env.conclusion
