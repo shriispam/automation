@@ -46,6 +46,10 @@ platforms:
     osVersion: 10
     browserName: Chrome
     browserVersion: latest
+  - os: OS X
+    osVersion: Sierra
+    browserName: Chrome
+    browserVersion: 103.0  
   
     
 # =======================
