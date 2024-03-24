@@ -23,11 +23,6 @@ jobs:
       - name: 'Checkout the repository'
         uses: actions/checkout@v2
 
-      - name: Run mvn test
-        run: |
-          mvn compile
-          mvn test
-
       - name: Run mvn profile sample-test
         run: |
           mvn compile
