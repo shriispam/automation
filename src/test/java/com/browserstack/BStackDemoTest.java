@@ -17,7 +17,7 @@ public class BStackDemoTest extends SeleniumTest {
     public void addProductToCart() throws Exception {
 
         
-          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     	  driver.get("https://www.flipkart.com");
           Thread.sleep(1000); // Wait for 5 seconds
           
