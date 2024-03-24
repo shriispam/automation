@@ -53,7 +53,7 @@ platforms:
   
     
 # =======================
-# Parallels per Platform
+# Parallels per Platform...
 # =======================
 # The number of parallel threads to be used for each platform set.
 # BrowserStack's SDK runner will select the best strategy based on the configured value
