@@ -43,9 +43,9 @@ platforms:
     browserName: Chrome
     browserVersion: latest
   - os: Windows
-    osVersion: 11
-    browserName: Edge
-    browserVersion: latest 
+    osVersion: 10
+    browserName: Chrome
+    browserVersion: latest
   
     
 # =======================
