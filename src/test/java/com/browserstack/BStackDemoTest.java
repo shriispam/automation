@@ -9,10 +9,15 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import java.time.Duration;
+import org.openqa.selenium.WebDriver;
 
 public class BStackDemoTest extends SeleniumTest {
     @Test
     public void addProductToCart() throws Exception {
+
+        
+          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     	  driver.get("https://www.flipkart.com");
           Thread.sleep(1000); // Wait for 5 seconds
           
