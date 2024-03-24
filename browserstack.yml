@@ -29,23 +29,7 @@ framework: testng
 # =======================================
 # Platforms object contains all the browser / device combinations you want to test on.
 # Entire list available here -> (https://www.browserstack.com/list-of-browsers-and-platforms/automate)
-platforms:
-  - os: OS X
-    osVersion: Big Sur
-    browserName: Chrome
-    browserVersion: latest
-  - os: Windows
-    osVersion: 7
-    browserName: IE
-    browserVersion: 8.0  
-  - os: Windows
-    osVersion: XP
-    browserName: Firefox
-    browserVersion: 47.0
-  - os: OS X
-    osVersion: Monterey
-    browserName: Chrome
-    browserVersion: 120.0  
+platforms: 
   - os: Windows
     osVersion: 10
     browserName: Chrome
