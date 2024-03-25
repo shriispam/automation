@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class SeleniumTest {
     public WebDriver driver;
-//this will execute before the method
+
     @BeforeMethod(alwaysRun = true)
     @SuppressWarnings("unchecked")
     public void setUp() throws Exception {
