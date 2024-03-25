@@ -3,8 +3,8 @@
 # =============================
 # Add your BrowserStack userName and accessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
-userName:  santoshiurunkar_b3OjfK
-accessKey: CzVT7g5zgHbAmCqW3xvv
+userName:  shrikrishnaumbar_BstwnR
+accessKey: sxckhJbEqCpwyFjouPTD
 
 # ======================
 # BrowserStack Reporting
@@ -60,7 +60,7 @@ platforms:
 #
 # Example 1 - If you have configured 3 platforms and set `parallelsPerPlatform` as 2, a total of 6 (2 * 3) parallel threads will be used on BrowserStack
 #
-# Example 2 - If you have configured 1 platform and set `parallelsPerPlatform` as 5, a total of 5 (1 * 5) parallel threads will be used on BrowserStack Automate
+# Example 2 - If you have configured 1 platform and set `parallelsPerPlatform` as 5, a total of 5 (1 * 5) parallel threads will be used on BrowserStack Automate.
 parallelsPerPlatform: 1
 
 source: testng:sample-master:v1.1
@@ -77,7 +77,7 @@ browserstackLocal: true # <boolean> (Default false)
 # browserStackLocalOptions:
   # localIdentifier: # <string> (Default: null) Needed if you need to run multiple instances of local.
   # forceLocal: true  # <boolean> (Default: false) Set to true if you need to resolve all your traffic via BrowserStack Local tunnel.
-  # Entire list of arguments available here -> https://www.browserstack.com/docs/automate/selenium/manage-incoming-connections
+  # Entire list of arguments available here -> https://www.browserstack.com/docs/automate/selenium/manage-incoming-connections .
   
 # ===================
 # Debugging features

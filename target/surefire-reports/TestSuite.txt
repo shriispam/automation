@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 18.365 sec <<< FAILURE! - in TestSuite
-setUp(com.browserstack.BStackLocalTest)  Time elapsed: 5.812 sec  <<< FAILURE!
-org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Caused by: org.openqa.selenium.WebDriverException: 
-Invalid option: chromeOptions for browser: ie
-Build info: version: '4.1.4', revision: '535d840ee2'
-System info: host: 'SHRI-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
-Driver info: driver.version: ChromeDriver
-remote stacktrace: 
-
-tearDown(com.browserstack.BStackLocalTest)  Time elapsed: 0.373 sec  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
-
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.094 sec - in TestSuite
