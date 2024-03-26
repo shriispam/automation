@@ -19519,3 +19519,368 @@ Caused by: java.io.InterruptedIOException: interrupted
 21:03:08.906 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/30f73741d28fa78c24624c898be8d104c51c0417
 21:03:08.906 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 21:03:08.906 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build  50) is not same as client side buildName(browserstack build #50)
+23:29:40.934 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+23:29:40.943 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+23:29:41.590 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\Admin\\eclipse-workspace\\2r, user.dir=C\:\\Users\\Admin\\eclipse-workspace\\2r, localrepository=C\:\\Users\\Admin\\.m2\\repository}
+23:29:41.593 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Admin\eclipse-workspace\2r\browserstack.yml
+23:29:41.723 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+23:29:41.738 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+23:29:42.269 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to DEBUG
+23:29:42.269 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO
+23:29:42.277 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Users\Admin\eclipse-workspace\2r\target\surefire\surefire13337914944836136774tmp
+23:29:42.283 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: com.browserstack.BStackDemoTest, com.browserstack.BStackLocalTest, com.browserstack.SeleniumTest
+23:29:42.327 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+23:29:42.359 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+23:29:42.359 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+23:29:42.359 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.15
+23:29:42.360 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+23:29:43.468 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+23:29:44.097 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 620ms
+23:29:45.450 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 1341ms
+23:29:46.860 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1407ms
+23:29:46.864 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+23:29:46.899 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"sxckhJbEqCpwyFjouPTD","userName":"shrikrishnaumbar_BstwnR","event_properties":{"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 10","languageVersion":"17","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":39,"parseDependencies":32},"language":"java","sdkRunId":"8559672c-590d-490a-a3f3-b5419bdcb45c","buildIdentifier":"#51","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.15","hostname":"shri-PC","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+23:29:48.095 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+23:29:48.096 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+23:29:48.721 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T17:59:48.720238600Z][ OBSERVABILITY ] Processing Request Kind launchTestSession
+
+23:29:48.721 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/builds
+23:29:51.573 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:29:51.574 [main] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T17:59:51.574674900Z][ OBSERVABILITY ] Build creation successfull!
+
+23:29:51.574 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+23:29:51.586 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 26_Mar_2329_shri_PC_eeuc
+23:30:05.405 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+23:30:06.807 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:06.807880Z][ OBSERVABILITY ] Processing Logs patching stream
+23:30:06.888 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+23:30:06.888 [setUp@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Admin\eclipse-workspace\2r, TestClass :: com\browserstack\SeleniumTest
+23:30:07.167 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Admin\eclipse-workspace\2r\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\Admin\eclipse-workspace\2r\., Normalized Path :: C:\Users\Admin\eclipse-workspace\2r, File.Separator :: \
+23:30:07.167 [setUp@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: 2r\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Users\Admin\eclipse-workspace\2r\.., Normalized Path :: C:\Users\Admin\eclipse-workspace 
+23:30:07.174 [setUp@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+23:30:07.179 [setUp@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:07.178655800Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+23:30:07.754 [setUp@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:07.754413400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:07.756 [setUp@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:07.756421500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:07.758 [setUp@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:07.758415100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:08.063 [setUp@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:08.063050600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:09.199 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:09.199034300Z][ OBSERVABILITY ] Time Since Last Batch Processed 1711476009199
+
+23:30:09.204 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:09.204039300Z][ OBSERVABILITY ] Processing Batch 5
+
+23:30:09.205 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:30:09.594 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:30:09.595 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:00:09.595555500Z][ OBSERVABILITY ] Batch event successfull!
+
+23:30:13.191 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:13.191834900Z][ OBSERVABILITY ] Time Since Last Batch Processed 3990
+
+23:30:15.196 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:15.196424Z][ OBSERVABILITY ] Time Since Last Batch Processed 2004
+
+23:30:17.197 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:17.197929700Z][ OBSERVABILITY ] Time Since Last Batch Processed 2001
+
+23:30:17.570 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+23:30:17.699 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: com.browserstack.BStackDemoTest 
+23:30:17.699 [BStackDemo-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Admin\eclipse-workspace\2r, TestClass :: com\browserstack\BStackDemoTest
+23:30:17.848 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Admin\eclipse-workspace\2r\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\Admin\eclipse-workspace\2r\., Normalized Path :: C:\Users\Admin\eclipse-workspace\2r, File.Separator :: \
+23:30:17.849 [BStackDemo-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: 2r\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Users\Admin\eclipse-workspace\2r\.., Normalized Path :: C:\Users\Admin\eclipse-workspace 
+23:30:17.940 [BStackDemo-0@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:17.940513900Z][ OBSERVABILITY ] Processing Request Kind TestRunStarted
+
+23:30:21.589 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:21.589006600Z][ OBSERVABILITY ] Time Since Last Batch Processed 4392
+
+23:30:21.590 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:21.590006500Z][ OBSERVABILITY ] Processing Batch 1
+
+23:30:21.590 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:30:21.956 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:30:21.957 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:00:21.957742Z][ OBSERVABILITY ] Batch event successfull!
+
+23:30:25.590 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:25.590677300Z][ OBSERVABILITY ] Time Since Last Batch Processed 4000
+
+23:30:27.596 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:27.596039Z][ OBSERVABILITY ] Time Since Last Batch Processed 2005
+
+23:30:31.584 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:31.584993200Z][ OBSERVABILITY ] Time Since Last Batch Processed 3988
+
+23:30:33.589 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:33.589863500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2003
+
+23:30:35.595 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:35.595368500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2005
+
+23:30:37.600 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:37.600091500Z][ OBSERVABILITY ] Time Since Last Batch Processed 2005
+
+23:30:41.597 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:41.597647400Z][ OBSERVABILITY ] Time Since Last Batch Processed 3997
+
+23:30:45.592 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:45.592535100Z][ OBSERVABILITY ] Time Since Last Batch Processed 3994
+
+23:30:48.623 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:48.623285400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:48.624 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:48.624287400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:48.625 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:48.625284300Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:49.383 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:49.383647200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:49.384 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:49.383647200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:49.385 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:49.385647900Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:49.597 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:49.597538700Z][ OBSERVABILITY ] Time Since Last Batch Processed 4005
+
+23:30:49.598 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:49.598550400Z][ OBSERVABILITY ] Processing Batch 6
+
+23:30:49.598 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:30:49.979 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:30:49.981 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:00:49.980377Z][ OBSERVABILITY ] Batch event successfull!
+
+23:30:50.802 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:50.802567400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:50.802 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:50.802567400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:50.803 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:50.803544200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:51.665 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:51.665171900Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:51.666 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:51.665171900Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:51.668 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:51.667176200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:52.850 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:52.850059800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:52.850 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:52.850059800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:52.851 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:52.851065400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:53.593 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:53.593389900Z][ OBSERVABILITY ] Time Since Last Batch Processed 3996
+
+23:30:53.594 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:53.594416300Z][ OBSERVABILITY ] Processing Batch 9
+
+23:30:53.595 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:30:53.793 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:53.793292100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:53.794 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:53.794298700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:53.795 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:53.795292900Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:54.076 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:30:54.077 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:00:54.077177700Z][ OBSERVABILITY ] Batch event successfull!
+
+23:30:54.696 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:54.696129500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:54.696 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:54.696129500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:54.697 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:54.697128200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:55.826 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:55.826173800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:55.827 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:55.827147800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:55.827 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:55.827147800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:56.808 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:56.807569400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:56.808 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:56.808572Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:56.809 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:56.809574300Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:57.597 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:57.597412Z][ OBSERVABILITY ] Time Since Last Batch Processed 4003
+
+23:30:57.598 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:57.598438300Z][ OBSERVABILITY ] Processing Batch 12
+
+23:30:57.598 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:30:57.857 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:57.857052700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:57.857 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:57.857052700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:57.857 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:57.857052700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:58.069 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:30:58.070 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:00:58.070323400Z][ OBSERVABILITY ] Batch event successfull!
+
+23:30:58.692 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:58.692778100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:58.693 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:58.693785Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:58.693 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:58.693785Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:59.505 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:59.505859600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:59.506 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:59.506858900Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:30:59.506 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:00:59.506858900Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:00.434 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:00.434612500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:00.435 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:00.435616100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:00.436 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:00.436591500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:01.594 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:01.594044800Z][ OBSERVABILITY ] Time Since Last Batch Processed 3996
+
+23:31:01.594 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:01.594620800Z][ OBSERVABILITY ] Processing Batch 12
+
+23:31:01.595 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:31:02.167 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:31:02.168 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:02.168059500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:02.169 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:01:02.169057800Z][ OBSERVABILITY ] Batch event successfull!
+
+23:31:02.170 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:02.170056500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:02.170 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:02.170572300Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:03.223 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:03.222369200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:03.223 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:03.223372400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:03.224 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:03.224347200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:04.466 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:04.466765400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:04.467 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:04.467746300Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:04.468 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:04.468746800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:05.587 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:05.587817300Z][ OBSERVABILITY ] Time Since Last Batch Processed 3993
+
+23:31:05.588 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:05.588841300Z][ OBSERVABILITY ] Processing Batch 9
+
+23:31:05.588 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:31:05.721 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:05.721765200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:05.722 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:05.722763200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:05.723 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:05.723763100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:06.057 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:31:06.058 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:01:06.058486600Z][ OBSERVABILITY ] Batch event successfull!
+
+23:31:07.082 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:07.082724500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:07.083 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:07.083723100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:07.083 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:07.083723100Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:07.597 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:07.597267900Z][ OBSERVABILITY ] Time Since Last Batch Processed 2010
+
+23:31:07.597 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:07.597267900Z][ OBSERVABILITY ] Processing Batch 6
+
+23:31:07.597 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:31:08.105 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:31:08.106 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:01:08.106749100Z][ OBSERVABILITY ] Batch event successfull!
+
+23:31:08.266 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:08.266296700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:08.267 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:08.267256400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:08.267 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:08.267256400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:09.232 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:09.232599500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:09.233 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:09.233599700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:09.233 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:09.233599700Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:09.967 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:09.967452800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:09.967 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:09.967452800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:09.968 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:09.968451800Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:10.973 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:10.973471600Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:10.974 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:10.974471200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:10.974 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:10.974471200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:11.599 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:11.599583400Z][ OBSERVABILITY ] Time Since Last Batch Processed 4001
+
+23:31:11.600 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:11.600584900Z][ OBSERVABILITY ] Processing Batch 12
+
+23:31:11.600 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:31:11.831 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:11.831510300Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:11.832 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:11.832512400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:11.832 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:11.832512400Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:11.996 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:31:11.997 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:01:11.997372600Z][ OBSERVABILITY ] Batch event successfull!
+
+23:31:12.625 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:12.625613200Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:12.626 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:12.626614500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:12.626 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:12.626614500Z][ OBSERVABILITY ] Processing Request Kind LogCreated
+
+23:31:12.833 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+23:31:12.834 [addProductToCart@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Admin\eclipse-workspace\2r, TestClass :: com\browserstack\SeleniumTest
+23:31:12.987 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Admin\eclipse-workspace\2r\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\Admin\eclipse-workspace\2r\., Normalized Path :: C:\Users\Admin\eclipse-workspace\2r, File.Separator :: \
+23:31:12.987 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: 2r\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Users\Admin\eclipse-workspace\2r\.., Normalized Path :: C:\Users\Admin\eclipse-workspace 
+23:31:12.988 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+23:31:12.988 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:12.988643200Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+23:31:12.988 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: com.browserstack.BStackDemoTest 
+23:31:12.990 [addProductToCart@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Admin\eclipse-workspace\2r, TestClass :: com\browserstack\BStackDemoTest
+23:31:13.138 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Admin\eclipse-workspace\2r\src\test\java\com\browserstack\BStackDemoTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\Admin\eclipse-workspace\2r\., Normalized Path :: C:\Users\Admin\eclipse-workspace\2r, File.Separator :: \
+23:31:13.138 [addProductToCart@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: 2r\src\test\java\com\browserstack\BStackDemoTest.java, Absolute Path :: C:\Users\Admin\eclipse-workspace\2r\.., Normalized Path :: C:\Users\Admin\eclipse-workspace 
+23:31:13.169 [addProductToCart@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:13.169154Z][ OBSERVABILITY ] Processing Request Kind TestRunFinished
+
+23:31:13.330 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: com.browserstack.SeleniumTest 
+23:31:13.331 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Admin\eclipse-workspace\2r, TestClass :: com\browserstack\SeleniumTest
+23:31:13.490 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Admin\eclipse-workspace\2r\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\Admin\eclipse-workspace\2r\., Normalized Path :: C:\Users\Admin\eclipse-workspace\2r, File.Separator :: \
+23:31:13.490 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: 2r\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Users\Admin\eclipse-workspace\2r\.., Normalized Path :: C:\Users\Admin\eclipse-workspace 
+23:31:13.491 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+23:31:13.491 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:13.491592200Z][ OBSERVABILITY ] Processing Request Kind HookRunStarted
+
+23:31:13.495 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+23:31:15.589 [pool-4-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:15.589020100Z][ OBSERVABILITY ] Time Since Last Batch Processed 3990
+
+23:31:15.590 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:15.590016100Z][ OBSERVABILITY ] Processing Batch 9
+
+23:31:15.591 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:31:15.997 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:31:15.999 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:01:15.999753400Z][ OBSERVABILITY ] Batch event successfull!
+
+23:31:16.379 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: com.browserstack.SeleniumTest 
+23:31:16.380 [tearDown@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Admin\eclipse-workspace\2r, TestClass :: com\browserstack\SeleniumTest
+23:31:16.564 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Admin\eclipse-workspace\2r\src\test\java\com\browserstack\SeleniumTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\Admin\eclipse-workspace\2r\., Normalized Path :: C:\Users\Admin\eclipse-workspace\2r, File.Separator :: \
+23:31:16.564 [tearDown@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: 2r\src\test\java\com\browserstack\SeleniumTest.java, Absolute Path :: C:\Users\Admin\eclipse-workspace\2r\.., Normalized Path :: C:\Users\Admin\eclipse-workspace 
+23:31:16.565 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - Can't add CBT info as driver is not alive
+23:31:16.565 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:16.565472800Z][ OBSERVABILITY ] Processing Request Kind HookRunFinished
+
+23:31:16.627 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+23:31:16.628 [tearDown@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+23:31:17.020 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+23:31:17.021 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+23:31:17.022 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:17.022213200Z][ OBSERVABILITY ] Processing stop observability
+23:31:17.024 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:17.024214100Z][ OBSERVABILITY ] Processing Batch 1
+
+23:31:17.025 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: POST api/v1/batch
+23:31:17.407 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:31:17.408 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2024-03-26T18:01:17.408365500Z][ OBSERVABILITY ] Batch event successfull!
+
+23:31:17.411 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2024-03-26T18:01:17.411364100Z][ OBSERVABILITY ] Processing Request Kind stopBuildUpstream
+
+23:31:17.411 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Sending Observability request: PUT api/v1/builds/lo8vpuqpwgdmvlh1wkgb1vnqhna1qiunvteugrpx/stop
+23:31:17.922 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+23:31:17.923 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - Observability stop response: 
+23:31:17.924 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/lo8vpuqpwgdmvlh1wkgb1vnqhna1qiunvteugrpx to view build report, insights, and many more debugging information all at one place!
+
+23:31:23.916 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+23:31:24.000 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"sxckhJbEqCpwyFjouPTD","userName":"shrikrishnaumbar_BstwnR","event_properties":{"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 10","languageVersion":"17","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":39,"ret-org.openqa.selenium.remote.RemoteWebDriver":689,"retransformClasses":692,"parseDependencies":32},"language":"java","sdkRunId":"8559672c-590d-490a-a3f3-b5419bdcb45c","buildIdentifier":"#51","userFramework":"testng","testhub_uuid":"lo8vpuqpwgdmvlh1wkgb1vnqhna1qiunvteugrpx","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true},"referrer":"testng-javaagent\/1.13.15","hostname":"shri-PC","measures":{"local:start":13824,"sdk:setup":24610,"local:stop":5975},"language_framework":"java_testng","detectedFramework":"testng","productUsage":{"testObservability":{"buildHashedId":"lo8vpuqpwgdmvlh1wkgb1vnqhna1qiunvteugrpx","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"sentCount":2,"triggeredCount":2,"failedCount":0},"finished":{"triggeredCount":2,"failedCount":0,"sentCount":2},"passed":{"sentCount":2,"triggeredCount":2,"failedCount":0}},"logEvents":{"sentCount":76,"triggeredCount":76,"failedCount":0,"log":{"sentCount":76,"triggeredCount":76,"failedCount":0}},"testEvents":{"started":{"sentCount":1,"triggeredCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"sentCount":1},"passed":{"sentCount":1,"triggeredCount":1,"failedCount":0}},"cbtSessionEvents":{"sentCount":0,"triggeredCount":0,"failedCount":0},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"detectedSeleniumVersion":"4.1.4","seleniumVersion":"4.1.4"}}
+23:31:24.695 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+23:31:29.302 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/6a10d264e794e2b059f8461ca1b97abd6d7fd994
+23:31:29.303 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+23:31:29.303 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build  51) is not same as client side buildName(browserstack build #51)
