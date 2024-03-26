@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-26T23:30:06 IST" name="Cross-Platform" finished-at="2024-03-26T23:31:16 IST" duration-ms="69758">
+  <suite started-at="2024-03-27T02:29:22 IST" name="Cross-Platform" finished-at="2024-03-27T02:30:15 IST" duration-ms="52759">
     <groups>
     </groups>
-    <test started-at="2024-03-26T23:30:06 IST" name="BStackDemo-0" finished-at="2024-03-26T23:31:16 IST" duration-ms="69758">
+    <test started-at="2024-03-27T02:29:22 IST" name="BStackDemo-0" finished-at="2024-03-27T02:30:15 IST" duration-ms="52759">
       <class name="com.browserstack.BStackDemoTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.BStackDemoTest@1136b469]" started-at="2024-03-26T23:30:06 IST" name="setUp" finished-at="2024-03-26T23:30:17 IST" duration-ms="10781" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.browserstack.BStackDemoTest@6579c3d9]" started-at="2024-03-27T02:29:22 IST" name="setUp" finished-at="2024-03-27T02:29:32 IST" duration-ms="9566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addProductToCart()[pri:0, instance:com.browserstack.BStackDemoTest@1136b469]" started-at="2024-03-26T23:30:17 IST" name="addProductToCart" finished-at="2024-03-26T23:31:12 IST" duration-ms="54946" status="PASS">
+        <test-method signature="addProductToCart()[pri:0, instance:com.browserstack.BStackDemoTest@6579c3d9]" started-at="2024-03-27T02:29:32 IST" name="addProductToCart" finished-at="2024-03-27T02:30:12 IST" duration-ms="40169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@1136b469]" started-at="2024-03-26T23:31:13 IST" name="tearDown" finished-at="2024-03-26T23:31:16 IST" duration-ms="3050" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.browserstack.BStackDemoTest@6579c3d9]" started-at="2024-03-27T02:30:12 IST" name="tearDown" finished-at="2024-03-27T02:30:15 IST" duration-ms="2398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
