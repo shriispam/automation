@@ -484,3 +484,17 @@
 
 12:32:05.365 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/52c6721ee7e6d24a08bbac05765643a14b041e06
 12:32:05.365 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+16:39:07.230 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+16:39:07.255 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+16:39:08.020 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\Admin\\eclipse-workspace\\2r, user.dir=C\:\\Users\\Admin\\eclipse-workspace\\2r, localrepository=C\:\\Users\\Admin\\.m2\\repository}
+16:39:08.022 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Admin\eclipse-workspace\2r\browserstack.yml
+16:39:08.282 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+16:39:08.305 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+16:39:09.192 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+16:39:12.879 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+16:39:15.556 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+16:39:26.860 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+16:40:26.911 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/detnpflins22vmq7kz0n2zx8tjrzjnrewobxt5cv to view build report, insights, and many more debugging information all at one place!
+
+16:40:35.742 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b2c5f9fdd551e428a3a8eca3727388c19d76ed31
+16:40:35.743 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
