@@ -10,11 +10,9 @@ public class BStackLocalTest extends SeleniumTest {
     @Test
     
     public void test() throws Exception {
-    	  
-    	
-    	
+    	    	
     	
     	  driver.get("https://www.flipkart.com");
-          Thread.sleep(1000); // Wait for 5 seconds
+          Thread.sleep(5000); // Wait for 5 seconds
     }
 }

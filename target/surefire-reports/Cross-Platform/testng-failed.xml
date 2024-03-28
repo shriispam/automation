@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Cross-Platform]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="5" name="BStackDemo-1(failed)" verbose="0">
-    <parameter name="platform" value="1"/>
-    <classes>
-      <class name="com.browserstack.BStackDemoTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="addProductToCart"/>
-        </methods>
-      </class> <!-- com.browserstack.BStackDemoTest -->
-    </classes>
-  </test> <!-- BStackDemo-1(failed) -->
-  <test thread-count="5" name="BStackDemo-2(failed)" verbose="0">
-    <parameter name="platform" value="2"/>
-    <classes>
-      <class name="com.browserstack.BStackDemoTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="addProductToCart"/>
-        </methods>
-      </class> <!-- com.browserstack.BStackDemoTest -->
-    </classes>
-  </test> <!-- BStackDemo-2(failed) -->
-  <test thread-count="5" name="BStackDemo-4(failed)" verbose="0">
-    <parameter name="platform" value="4"/>
-    <classes>
-      <class name="com.browserstack.BStackDemoTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="addProductToCart"/>
-        </methods>
-      </class> <!-- com.browserstack.BStackDemoTest -->
-    </classes>
-  </test> <!-- BStackDemo-4(failed) -->
-  <test thread-count="5" name="BStackDemo-0(failed)" verbose="0">
+<suite thread-count="1" parallel="tests" name="Failed suite [Cross-Platform]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" name="BStackDemo-0(failed)" verbose="0">
     <parameter name="platform" value="0"/>
     <classes>
       <class name="com.browserstack.BStackDemoTest">
@@ -49,16 +13,4 @@
       </class> <!-- com.browserstack.BStackDemoTest -->
     </classes>
   </test> <!-- BStackDemo-0(failed) -->
-  <test thread-count="5" name="BStackDemo-3(failed)" verbose="0">
-    <parameter name="platform" value="3"/>
-    <classes>
-      <class name="com.browserstack.BStackDemoTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="addProductToCart"/>
-        </methods>
-      </class> <!-- com.browserstack.BStackDemoTest -->
-    </classes>
-  </test> <!-- BStackDemo-3(failed) -->
 </suite> <!-- Failed suite [Cross-Platform] -->

@@ -35,19 +35,18 @@ public class BStackDemoTest extends SeleniumTest {
           Thread.sleep(1000); // Wait for 5 seconds
           
        // Find the link element by its full XPath
-          WebElement linkElement = driver.findElement(By.xpath("/html/body/div/div/div[3]/div[1]/div[1]/div/div[1]/div/div/section/div[3]/div/a"));
-
-          // Click on the link element
-          linkElement.click();
+       WebElement linkElement2= driver.findElement(By.cssSelector("#container > div > div._36fx1h._6t1WkM._3HqJxg > div._1YokD2._2GoDe3 > div._1YokD2._3Mn1Gg.col-2-12 > div > div:nth-child(1) > div > div > section > div:nth-child(3) > div > a"));
+            
+       linkElement2.click();
           
           Thread.sleep(1000); // Wait for 5 seconds
           
           //checking the samsung checkbox
           
           
-          WebElement checkboxElement = driver.findElement(By.xpath("/html/body/div/div/div[3]/div/div[1]/div/div[1]/div/section[3]/div[2]/div/div/div/label/div[1]"));
+        //   WebElement checkboxElement = driver.findElement(By.xpath("/html/body/div/div/div[3]/div/div[1]/div/div[1]/div/section[3]/div[2]/div/div/div/label/div[1]"));
 //          can also do with css selector but if doesnt load properly,it gives issue
-//          WebElement checkboxElement = driver.findElement(By.cssSelector("#container > div > div._36fx1h._6t1WkM._3HqJxg > div._1YokD2._2GoDe3 > div._1YokD2._3Mn1Gg.col-2-12 > div > div:nth-child(1) > div > section:nth-child(4) > div._3FPh42 > div > div > div > label > div._24_Dny"));
+         WebElement checkboxElement = driver.findElement(By.cssSelector("#container > div > div._36fx1h._6t1WkM._3HqJxg > div._1YokD2._2GoDe3 > div._1YokD2._3Mn1Gg.col-2-12 > div > div:nth-child(1) > div > section:nth-child(4) > div._3FPh42 > div > div > div > label > div._24_Dny"));
           // Check the checkbox if it's not already checked
           if (!checkboxElement.isSelected()) {
               checkboxElement.click();
@@ -59,7 +58,7 @@ public class BStackDemoTest extends SeleniumTest {
           
           
           //checking the assured checkBox
-          WebElement checkboxElement2 = driver.findElement(By.xpath("/html/body/div/div/div[3]/div[1]/div[1]/div/div[1]/div/section[4]/label/div[1]"));
+          WebElement checkboxElement2 = driver.findElement(By.cssSelector("#container > div > div._36fx1h._6t1WkM._3HqJxg > div._1YokD2._2GoDe3 > div._1YokD2._3Mn1Gg.col-2-12 > div > div:nth-child(1) > div > section._2hbLCH._24gLJx > label > div._24_Dny._3tCU7L"));
           // Check the checkbox if it's not already checked
           if (!checkboxElement2.isSelected()) {
               checkboxElement2.click();
