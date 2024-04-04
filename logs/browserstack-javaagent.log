@@ -498,3 +498,17 @@
 
 16:40:35.742 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b2c5f9fdd551e428a3a8eca3727388c19d76ed31
 16:40:35.743 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+02:09:40.411 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+02:09:40.420 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+02:09:40.873 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\Users\\Admin\\eclipse-workspace\\2r, user.dir=C\:\\Users\\Admin\\eclipse-workspace\\2r, localrepository=C\:\\Users\\Admin\\.m2\\repository}
+02:09:40.875 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\Admin\eclipse-workspace\2r\browserstack.yml
+02:09:41.062 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+02:09:41.077 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+02:09:41.760 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+02:09:48.684 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+02:09:51.287 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+02:10:01.372 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+02:11:15.184 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/c4ch9y9n9r4s5zfs3rrqivrn0arqgxuxrja8amcb to view build report, insights, and many more debugging information all at one place!
+
+02:11:23.949 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/8333d93747e3c24a927e2c9108bdc87669e550f6
+02:11:23.950 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
